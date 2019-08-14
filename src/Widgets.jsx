@@ -32,7 +32,12 @@ class Widgets extends React.Component {
 
   static scriptLoaded() {
     window.app_type = 'd8';
+    // window.app_type = 'native';
+    // window.app_type = '';
     window.bzHome();
+    // window.bzChannels();
+    // window.bzPersonalized();
+    // window.bzHeadlines();
   }
 
   render() {
